@@ -78,7 +78,7 @@ console.log(arrayNumeros.reverse());
 
 // Ordena de menor a mayor la variable arrayNumeros2 y muestrala por consola
 
-console.log(arrayNumeros2.sort());
+console.log(arrayNumeros2.sort((a,b)=>b-a));
 
 // Muestra por consola la propiedad ‘que’ de la variable loGuardoTodo
 
